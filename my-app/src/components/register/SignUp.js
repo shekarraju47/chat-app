@@ -5,7 +5,7 @@ const SignUp = () => {
   return (
     <div className="form-cont">
       <form>
-        <label htmlFor="email">Name</label>
+        <label htmlFor="name">Name</label>
         <input id="name" type="text" placeholder="Enter Name" required />
 
         <label htmlFor="username">User Name</label>
@@ -16,7 +16,7 @@ const SignUp = () => {
           required
         />
 
-        <label htmlFor="name">Email</label>
+        <label htmlFor="email">Email</label>
         <input
           id="email"
           type="email"

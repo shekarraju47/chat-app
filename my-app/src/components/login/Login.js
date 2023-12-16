@@ -1,5 +1,8 @@
 import React from "react";
-import { Navigate, Link } from "react-router-dom";
+import {
+  // Navigate
+  Link,
+} from "react-router-dom";
 import "./login.css";
 
 const Login = () => {

@@ -1,0 +1,23 @@
+.conts-cont {
+  background-color: black;
+  width: 50vw;
+  border: solid white 1px;
+  li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    padding-left: 4%;
+    margin: 2%;
+  }
+  img {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+}
+
+.selected {
+  background-color: gray;
+}
