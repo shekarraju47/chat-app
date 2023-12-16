@@ -1,12 +1,13 @@
 import React from "react";
 import { Navigate, Link } from "react-router-dom";
+import "./login.css";
 
 const Login = () => {
   // if (true) {
   //   return <Navigate to={"/"} />;
   // }
   return (
-    <div>
+    <div className="form-cont">
       <form>
         <label htmlFor="email">Enter Email</label>
         <input
@@ -23,9 +24,9 @@ const Login = () => {
           placeholder="Enter Password"
         />
         <button>Log In</button>
-        <p>
+        <p className="btm-text">
           If Don't Have An Account
-          <Link to="/signUp">
+          <Link className="link" to="/signUp">
             <span>Sign Up</span>
           </Link>
         </p>

@@ -1,0 +1,23 @@
+.header {
+  background-color: skyblue;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  height: 8vh;
+}
+
+.inactive {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.active {
+  color: green;
+  font-weight: bold;
+}
+
