@@ -9,11 +9,11 @@ const Login = () => {
   return (
     <div className="form-cont">
       <form>
-        <label htmlFor="email">Enter Email</label>
+        <label htmlFor="username">User Name</label>
         <input
-          id="email"
-          type="email"
-          placeholder="Enter Email Adress"
+          id="username"
+          type="text"
+          placeholder="Enter Username"
           required
         />
         <label htmlFor="password">Password</label>
