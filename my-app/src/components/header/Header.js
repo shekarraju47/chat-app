@@ -9,24 +9,17 @@ const Header = () => {
         className={({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? "active" : "inactive"
         }
-        to={"/"}
+        to={"/login"}
       >
-        <li>Home</li>{" "}
-      </NavLink>
-      <NavLink className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : "inactive"
-        } to={"/login"}>
         <li>Login</li>
       </NavLink>
-      <NavLink className={({ isActive, isPending }) =>
+      <NavLink
+        className={({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? "active" : "inactive"
-        } to={"/signUp"}>
+        }
+        to={"/signUp"}
+      >
         <li>Sing Up</li>
-      </NavLink>
-      <NavLink className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : "inactive"
-        } to={"/about"}>
-        <li>About</li>
       </NavLink>
     </div>
   );
