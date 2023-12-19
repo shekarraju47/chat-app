@@ -1,0 +1,75 @@
+.rightMainCont {
+  flex: 4;
+}
+
+.rightBarWrapper {
+  padding: 20px;
+}
+
+.addCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  border-radius: 6px;
+  background-color: #f1f1f1;
+  box-shadow: 0 0 3px black;
+}
+
+.profileCont {
+  padding: 0;
+  list-style: none;
+}
+
+.onLineBadge {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  height: 15px;
+  width: 15px;
+  background-color: green;
+  border-radius: 50%;
+  border: solid white 2px;
+}
+
+.cityDetail {
+  line-height: 0;
+}
+
+.FromDetail {
+  line-height: 0;
+}
+
+.relationDetails {
+  line-height: 0;
+}
+.frndsHeading{
+  
+}
+
+.frndListMainCont{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.frndsDetlsCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: flex-start;
+  gap: 5px;
+}
+
+.frndProfileImg {
+  width: 85px;
+  height: 85px;
+  border-radius: 4px;
+  object-fit: cover;
+
+}
+
+.frndName{
+  margin: 0;
+  font-size: 13px;
+}

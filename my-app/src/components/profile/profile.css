@@ -1,0 +1,50 @@
+.profileMainCont {
+  display: flex;
+}
+
+.profileWrap {
+  flex: 9.5;
+}
+
+.profileCover {
+  height: 250px;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.btmCont {
+  display: flex;
+  align-items: flex-start;
+}
+.coverImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.profileBadge {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 2px white;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 150px;
+}
+
+.userInfoCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.userName {
+  margin-bottom: 0;
+}
+.userDesc{
+  line-height: 0;
+}

@@ -1,23 +1,101 @@
-.header {
-  background-color: skyblue;
+.header-main-cont {
   display: flex;
-  gap: 10px;
-  justify-content: flex-end;
   align-items: center;
-  height: 8vh;
+  background-color: #1877f2;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
-.inactive {
-    color: black;
-    text-decoration: none;
-}
-
-li {
-  list-style: none;
-}
-
-.active {
-  color: green;
+.left-cont {
+  flex: 3;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
+  color: white;
+  font-style: 40px;
 }
 
+.center-cont {
+  flex: 5;
+}
+
+.search-cont {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 30px;
+  border-radius: 12px;
+}
+.search-icon {
+  margin-left: 12px;
+  height: 22px;
+  width: 22px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  width: 90%;
+}
+.right-cont {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.page-cont {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  font-weight: 600;
+}
+
+.notification-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.badge-cont {
+  position: relative;
+  margin: 4px;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+  position: relative;
+
+  color: white;
+  cursor: pointer;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid white 1px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+
+.profile{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
